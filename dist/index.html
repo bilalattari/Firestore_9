@@ -1,37 +1,52 @@
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Firebase 9</title>
-  </head>
-  <body>
-    <h1>Getting Started with Firebase 9</h1>
 
-    <form id="register">
-      <label for="name">Name:</label>
-      <input type="text" name="name" required>
-      <label for="marks">email:</label>
-      <input type="email" name="email" required>
-      <label for="password">Password:</label>
-      <input type="password" name="password" required>
-      
-      <button>add student</button>
-    </form>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Firebase 9</title>
+</head>
 
-    <form id="add">
-      <label for="name">Name:</label>
-      <input type="text" name="name" required>
-      <label for="marks">Marks:</label>
-      <input type="text" name="marks" required>
-      <label for="class">Class:</label>
-      <input type="text" name="class" required>
-      
-      <button>Register</button>
-    </form>
-  
-    <ul id="list_container"></ul>
+<body>
+  <h1>Getting Started with Firebase 9</h1>
 
-    <script src="bundle.js"></script>
-  </body>
+  <form id="register">
+    <label for="name">Name:</label>
+    <input type="text" name="name" required> <br> <br>
+    <label for="marks">email:</label>
+    <input type="email" name="email" required><br> <br>
+    <label for="password">Password:</label>
+    <input type="password" name="password" required> <br> <br>
+
+    <button>Sign up</button>
+  </form>
+
+  <form id="login">
+    <label for="marks">email:</label>
+    <input type="email" name="email" required><br> <br>
+    <label for="password">Password:</label>
+    <input type="password" name="password" required> <br> <br>
+
+    <button>Sign in</button>
+  </form>
+
+  <!-- <form id="add">
+    <label for="name">Name:</label>
+    <input type="text" name="name" required> <br> <br>
+
+    <label for="marks">Marks:</label>
+    <input type="text" name="marks" required> <br> <br>
+
+    <label for="class">Class:</label>
+    <input type="text" name="class" required><br> <br>
+
+    <button>Add Student</button>
+
+  </form> -->
+
+  <ul id="list_container"></ul>
+
+  <script src="bundle.js"></script>
+</body>
+
 </html>
